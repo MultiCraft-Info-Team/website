@@ -1,6 +1,3 @@
-/* ════════════════════════════════════════════════
-   DEBLOCK STUDIOS — effects.js
-   ════════════════════════════════════════════════ */
 
 /* ── Navbar scroll ── */
 (function () {
@@ -46,3 +43,20 @@ document.querySelectorAll('.lang-btn').forEach(btn => {
 
 /* ── Stub so i18n.js can call restartTyping safely ── */
 window.restartTyping = function () {};
+
+/* ── Scroll-reveal (IntersectionObserver) ── */
+(function () {
+  const els = document.querySelectorAll('.reveal');
+  if (!els.length) return;
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.12 });
+
+  els.forEach(el => observer.observe(el));
+})();

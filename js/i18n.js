@@ -49,7 +49,7 @@ const TRANSLATIONS = {
     /* MultiDB */
     "project.mdb.tag": "Store Gratuit",
     "project.mdb.name": "MultiDB",
-    "project.mdb.desc": "Explorez et téélchargez gratuitements des mods et packs de texture pour enrichir votre gameplay sur MultiCraft.",
+    "project.mdb.desc": "Explorez et téléchargez gratuitements des mods et packs de texture pour enrichir votre gameplay sur MultiCraft.",
     "project.mdb.pill1": "Mods",
     "project.mdb.pill2": "Textures",
     "project.mdb.pill3": "Gratuit",

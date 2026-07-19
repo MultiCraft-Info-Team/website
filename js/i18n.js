@@ -13,6 +13,7 @@ const TRANSLATIONS = {
     "nav.projects": "Projets",
     "nav.studio": "Studio",
     "nav.contact": "Contact",
+    "nav.blog": "Blog",
     "nav.cta": "Nos projets",
 
     /* ── Hero ── */
@@ -146,6 +147,7 @@ const TRANSLATIONS = {
     "nav.projects": "Projects",
     "nav.studio": "Studio",
     "nav.contact": "Contact",
+    "nav.blog": "Blog",
     "nav.cta": "Our Projects",
 
     /* ── Hero ── */
